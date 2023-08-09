@@ -1,0 +1,32 @@
+.dsc-card {
+  padding: 10px 0;
+  margin: 25px 20px;
+  width: 100%;
+  max-width: 260px;
+  border: 1px solid #3c9af0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dsc-card img {
+  width: 260px;
+  height: 194px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 526px) {
+  .dsc-card {
+    max-width: 746px;
+    min-height: 352px;
+  }
+  .dsc-card img {
+    width: 391px;
+    height: 292px;
+  }
+
+}

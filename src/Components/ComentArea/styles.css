@@ -1,0 +1,24 @@
+.coment-container p { 
+    color: var(--ct-color-font-terciary);
+    font-size: 16px;
+
+}
+
+.coment-container {
+    padding: 25px 20px;
+    margin: 25px 20px;
+    background-color: #fff;
+    width: 280px;
+    height: 146px;
+    border-radius: 12px ;
+
+}
+
+
+@media (min-width: 526px) {
+    .coment-container {
+      width: 80%;  
+      max-width: 960px;
+      height: 74px;
+    }
+}

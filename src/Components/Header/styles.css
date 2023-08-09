@@ -1,0 +1,19 @@
+.dsc-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--ct-color-bg-secondary);
+  height: 70px;
+}
+
+.dsc-nav h1 {
+  font-size: 20px;
+  color: var(--ct-color-font-secondary);
+}
+
+@media (min-width: 726px) {
+  .dsc-nav h1 {
+    font-size: 24px;
+  }
+}

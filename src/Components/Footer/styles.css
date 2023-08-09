@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  background-color: var(--ct-color-bg-secondary);
+  height: 120px;
+}
+
+footer p {
+  color: var(--ct-color-font-secondary);
+}
+
+@media (min-width: 726px) {
+  footer {
+    padding: 0 120px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
